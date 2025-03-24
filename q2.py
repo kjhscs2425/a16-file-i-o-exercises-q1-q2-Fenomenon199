@@ -13,7 +13,10 @@ image = """
 # Write the string `webpage` to a file called "hello.html"
 
 ####
-#### YOUR CODE HERE 
+with open ("hello.html","w") as f:
+    f.write (webpage)
+    
+     
 ####
 
 
