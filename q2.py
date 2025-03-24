@@ -22,6 +22,8 @@ with open ("hello.html","w") as f:
 
 # Write the string `image` to a file called "star.svg"
 # Check that you can open the files in your file explorer
+with open ("star.svg", "w") as f: 
+    f.write (image)
 
 ####
 #### YOUR CODE HERE 
